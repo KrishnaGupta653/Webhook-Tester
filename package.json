@@ -1,0 +1,36 @@
+{
+  "name": "webhook-listener-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "tsx server.ts",
+  "build": "next build",
+  "start": "next start",
+  "lint": "next lint",
+  "server": "tsx server.ts",
+  "server:dev": "tsx watch server.ts"
+},
+
+  "dependencies": {
+    "next": "14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "socket.io-client": "^4.7.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "autoprefixer": "^10.4.21",
+    "concurrently": "^8.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.0",
+    "postcss": "^8.5.3",
+    "socket.io": "^4.7.2",
+    "tailwindcss": "^4.1.7",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
