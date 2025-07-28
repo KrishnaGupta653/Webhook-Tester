@@ -50,11 +50,10 @@ We needed a **self-hosted, developer-friendly webhook debugger** with complete *
 ```
 
 
+
 Uploading Recording 2025-05-30 171531.mp4…
 
 
-
-Uploading Recording 2025-07-03 203100.mp4…
 
 
 ## ⚙️ Tech Stack
