@@ -42,7 +42,8 @@ export default function SessionListener() {
   useEffect(() => {
     if (!sessionId) return;
 
-    const socketIo: Socket = io();
+    // const socketIo: Socket = io();
+    const socketIo: Socket = io(process.env.NEXT_PUBLIC_SOCKET_URL || window.location.origin);
     socketIo.emit('join-session', sessionId);
 
     socketIo.on('webhook-event', (event: WebhookEvent) => {
