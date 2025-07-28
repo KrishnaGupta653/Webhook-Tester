@@ -15,7 +15,11 @@ nextApp.prepare().then(() => {
   const expressApp = express();
   const server = http.createServer(expressApp);
   const io = new Server(server, {
-    cors: { origin: '*' },
+    // cors: { origin: '*' },
+    cors: {
+    origin: process.env.FRONTEND_ORIGIN || '*', // Optional: use env var
+    methods: ['GET', 'POST'],
+  },
   });
 
   expressApp.use(cors());
