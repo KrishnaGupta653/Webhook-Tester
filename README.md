@@ -51,7 +51,11 @@ We needed a **self-hosted, developer-friendly webhook debugger** with complete *
 
 
 
-Uploading Recording 2025-05-30 171531.mp4…
+
+https://github.com/user-attachments/assets/6f35d0b9-e9dd-44ce-a87d-2e6b628e2468
+
+
+
 
 
 
@@ -285,14 +289,6 @@ curl -X POST http://localhost:3000/webhook/your-session-id \
 3. Add headers and JSON body as needed
 4. Send request and watch the listener page
 
-## 🚀 Deployment Options
-
-| Platform | Complexity | Cost | Notes |
-|----------|------------|------|-------|
-| **Railway** | ⭐ Easy | Free tier | Recommended for quick deployment |
-| **Vercel** | ⭐⭐ Medium | Free tier | Requires serverless adaptation |
-| **DigitalOcean** | ⭐⭐⭐ Hard | $5/month | Full control, Docker support |
-| **AWS/GCP** | ⭐⭐⭐⭐ Expert | Variable | Enterprise-grade scaling |
 
 ## 🤝 Contributing
 
