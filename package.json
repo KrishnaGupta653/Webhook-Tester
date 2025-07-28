@@ -5,10 +5,12 @@
   "scripts": {
     "dev": "tsx server.ts",
     "build": "next build",
-    "start": "next start",
+    "start": "tsx server.ts",
+    "start:prod": "NODE_ENV=production tsx server.ts",
     "lint": "next lint",
     "server": "tsx server.ts",
-    "server:dev": "tsx watch server.ts"
+    "server:dev": "tsx watch server.ts",
+    "server:prod": "NODE_ENV=production tsx server.ts"
   },
   "dependencies": {
     "lucide-react": "^0.532.0",
